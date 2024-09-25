@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- SEO Tags -->
+    <meta name="description" content="Basic HTML Website" />
+    <meta name="keywords" content="HTML, HTML Project, Frontend Project" />
+    <meta name="author" content="Shaykh Akhtar" />
+
+    <title>Basic HTML Website</title>
+  </head>
+  <body>
+    <header>
+      <div class="logo">
+        <img src="logo.png" alt="logo" />
+        Shaykh Akhtar
+      </div>
+      <nav>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="projects.html">Projects</a></li>
+          <li><a href="articles.html">Article</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <section class="contact">
+        <h1>Contact Me</h1>
+        <form action="submit_form.php" method="post">
+          <label for="name">Name</label>
+          <input type="text" id="name" name="name" required />
+
+          <label for="email">Email</label>
+          <input type="text" id="email" name="email" required />
+
+          <label for="message">Message</label>
+          <textarea name="message" id="message" rows="5" required>
+Send Message</textarea
+          >
+
+          <button type="submit">Submit</button>
+        </form>
+      </section>
+    </main>
+    <footer>
+      <p>&copy; All Rights Reserved 2024</p>
+    </footer>
+  </body>
+</html>
